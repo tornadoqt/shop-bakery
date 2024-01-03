@@ -37,6 +37,14 @@
     position: absolute;
     top: 40px;
     right: 40px;
+
+    cursor: pointer;
+    stroke: var(--color-primary-dark);
+    fill: var(--color-primary-light);
+    border: 2px;
+    border-color: var(--color-primary-dark);
+    background: transparent;
+    // background-color: rgba(255, 255, 255, 1);
   }
 
   &__form-field {
@@ -46,4 +54,8 @@
   &__button {
     margin: 0 auto 24px;
   }
+
+  // &__icon-close {
+  //   fill: var(--color-primary-dark);
+  // }
 }
